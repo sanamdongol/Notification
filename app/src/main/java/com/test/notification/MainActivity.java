@@ -108,6 +108,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     public void customNotification() {
         NotificationCompat.Builder mBuilder = (NotificationCompat.Builder) new NotificationCompat.Builder(this)
